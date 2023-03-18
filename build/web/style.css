@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11 Jun, 2022, 5:47:48 PM
+    Author     : Ganesh
+*/
+
+#cards img{
+    width: 230px;
+    height: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    padding-right: 20px;
+    border: none !important;
+   
+}
+.card{
+    width: 250px;
+    height: 380px;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3),
+                inset 4px 4px 10px white;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center; 
+    background: #efefef;
+    
+    margin-left:  5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#cards h5{
+    padding-top: 0px;
+    font-size: 25px;
+    padding-left: 10px;
+    color: black;
+    
+}
+#cards h6{
+    padding-top: 0px;
+    
+    padding-left: 10px;
+    color: black;
+    
+}
+.card:hover{
+    box-shadow: 25px 30px 30px rgba(0, 0, 0, 0.3),
+                inset 8px 8px 20px black;
+    
+    transform: 0.15s;
+
+}
+
